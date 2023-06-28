@@ -1,0 +1,12 @@
+git init : If we make any changes to a file it it not tracked by git, to make it track.
+            It makes a hidden folder (.git) whare all the changes are recorded
+            This command is used for a directory. Once used in a directory , it tracks new files added or old files in tat directory
+
+git status : tells the status, whether tracked or untracked
+
+git add <filename> : git gets the info of this file and is sent to staging area
+git add . : to add lot of file in one go (all the files in that directory)
+
+git commit -m "messasge" : this commits the file. -m is for message and we can put any
+                            message inside "" for every commit (we can have multiple commits, so in order to differentiate)
+

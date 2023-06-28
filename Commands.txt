@@ -10,3 +10,9 @@ git add . : to add lot of file in one go (all the files in that directory)
 git commit -m "messasge" : this commits the file. -m is for message and we can put any
                             message inside "" for every commit (we can have multiple commits, so in order to differentiate)
 
+git config --global user.email "ranakarn1607@gmail.com" : to set email
+git config --global user.name "ranakarn"      : to set username
+git config --global user.name : to check username
+git config --global user.email : to check email
+
+git log : To check logs of commits

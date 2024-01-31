@@ -20,3 +20,10 @@ git config --global user.email : to check email
 git log : To check logs of commits
 
 git restore --staged <file> : To unstage a file
+
+git push -u origin main : To push the file
+
+git remote add origin <url> : Here the origin is - https://github.com/ranakarnsingh/Learning.git
+                              It is basically the url if the repo.
+
+git branch -M main : To give the branch, here it is main  

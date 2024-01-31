@@ -27,3 +27,10 @@ git remote add origin <url> : Here the origin is - https://github.com/ranakarnsi
                               It is basically the url if the repo.
 
 git branch -M main : To give the branch, here it is main  
+
+git clone <url> : Here url is the url of the git repo that we want to clone
+                  A folder is created with the name of the repo and all the code is present inside that.
+
+git clone <url> ware.git <name> :   Here url is the url of the git repo that we want to clone
+                                    A folder is created with the name given and all the code is present inside that.
+

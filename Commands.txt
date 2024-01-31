@@ -26,6 +26,12 @@ git push -u origin main : To push the file
 git remote add origin <url> : Here the origin is - https://github.com/ranakarnsingh/Learning.git
                               It is basically the url if the repo.
 
+** 
+If we get en error "remote orgin already exists" the we can assign origin to a new url
+    eg : git remote add Myorigin <new_url> : here we can give any name in place of Myorigin and url of the repo.
+         The push command for this would become : git push -u Myorigin main
+**
+
 git branch -M main : To give the branch, here it is main  
 
 git clone <url> : Here url is the url of the git repo that we want to clone
@@ -33,4 +39,6 @@ git clone <url> : Here url is the url of the git repo that we want to clone
 
 git clone <url> ware.git <name> :   Here url is the url of the git repo that we want to clone
                                     A folder is created with the name given and all the code is present inside that.
+
+git remote -v : To check the version of orgin of remote repo
 

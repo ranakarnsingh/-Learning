@@ -1,0 +1,16 @@
+From 8 to
+
+Create a file as gitignore and try all these below commands inside that file. Not on terminal/
+
+gitIgnore Rules :-
+
+    *.a : Will ignore all the files with extention .a
+    *.[ao] : Will ignore all the files that have extention .a or .o
+    !lib.a : Will not ignore lib.a file
+    /todo : This will ignore the file. If it's in same directory and irrespective of the location inside that directory. 
+            (see diff b/w)
+    test/ : Will Ignore all the files in test folder.
+    ? : It Matches a single character. 
+        Eg- l?b.?xt - this will ignore all the files that starts with l and ends with b and has 1 character in between. 
+        Same for extention.
+    subDir/ : Will ignore all the files inside subDir directory. (subDir is the name of the directory)

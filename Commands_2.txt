@@ -29,3 +29,4 @@ Command - amend :-
              After running this command a new window will pop up
              Press i to edit the commit message
              Then press ESC and then give :wq to come out of the new window (:wq stands for write and quit)
+    Check

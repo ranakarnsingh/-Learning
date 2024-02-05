@@ -1,6 +1,6 @@
 From 8 to
 
-Create a file as gitignore and try all these below commands inside that file. Not on terminal/
+Create a file as .gitignore and try all these below commands inside that file. Not on terminal/
 
 gitIgnore Rules :-
 
@@ -14,3 +14,9 @@ gitIgnore Rules :-
         Eg- l?b.?xt - this will ignore all the files that starts with l and ends with b and has 1 character in between. 
         Same for extention.
     subDir/ : Will ignore all the files inside subDir directory. (subDir is the name of the directory)
+
+Removing a file :-
+    If the file is un modified :
+        git rm <filename> : this will remove the file. Then we need to commit and push the file. (No need to add)
+    If the file is modified then we need to force remove:
+        git rm -f <filename> : this will remove the file. Then we need to commit and push the file. (No need to add)

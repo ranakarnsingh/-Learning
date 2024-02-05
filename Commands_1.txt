@@ -1,3 +1,5 @@
+From 1 to 7
+
 git init : If we make any changes to a file it it not tracked by git, to track it.
             It makes a hidden folder (.git) whare all the changes are recorded
             This command is used for a directory. Once used in a directory , 

@@ -43,5 +43,4 @@ git clone <url> ware.git <name> :   Here url is the url of the git repo that we 
                                     A folder is created with the name given and all the code is present inside that.
 
 git remote -v : To check the version of orgin of remote repo.
-Check
 

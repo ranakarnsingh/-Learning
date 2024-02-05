@@ -20,3 +20,12 @@ Removing a file :-
         git rm <filename> : this will remove the file. Then we need to commit and push the file. (No need to add)
     If the file is modified then we need to force remove:
         git rm -f <filename> : this will remove the file. Then we need to commit and push the file. (No need to add)
+
+Command - amend :-
+    Syntax : git commit --amend
+             Used when we want to add minor changes to last commit without increasing the number of commits or with new commit
+             It's used when changes are commited and not pushed
+             It replaces the previous commit with the new one
+             After running this command a new window will pop up
+             Press i to edit the commit message
+             Then press ESC and then give :wq to come out (:wq stands for write and quit)

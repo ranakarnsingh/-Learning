@@ -45,3 +45,9 @@ Command - stash :-
              It applies the saved changes again and file is modified
     Syntax : git stash clear
              It deletes the stash
+
+Command - restore :-
+    Syntax : git restore --staged <filename>
+             this will move the file from staged area to modified state 
+    Syntax : git restore <filename>
+             this will make the file unmodified from modified state. (removes the changes)
